@@ -8,4 +8,6 @@ function mostrarAumento()
 	var sueldo=parseInt(txtIdSueldo.value);
 	var resultado=sueldo*1.1;
 	txtIdResultado.value=resultado;
+
+	// resultado.toFixed(2) <-- Redondea a dos decimales
 }
