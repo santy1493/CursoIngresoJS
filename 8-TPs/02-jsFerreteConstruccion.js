@@ -15,10 +15,9 @@ function Rectangulo ()
 }
 function Circulo () 
 {
-    const PI=3.1416;
     let radio=parseFloat(document.getElementById("txtIdRadio").value);
 
-    let circulo=PI*radio*2*3;
+    let circulo=3.1416*radio*2*3;
 
     alert(`La cantidad de alambre para el terreno es de ${circulo}m`);
 }
