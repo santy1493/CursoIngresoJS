@@ -46,23 +46,30 @@ function verificar() {
 
 		switch(contadorIntentos) {
 
-			case 1: alert("usted es un Psíquico");
-			break;
-			case 2: alert("excelente percepción");
-			break;
-			case 3: alert("Esto es suerte");
-			break;
-			case 4: alert("Excelente técnica");
-			break;
-			case 5: alert("usted está en la media");
-			break;
+			case 1:
+        alert("usted es un Psíquico");
+		  	break;
+			case 2:
+        alert("excelente percepción");
+			  break;
+			case 3:
+        alert("Esto es suerte");
+		  	break;
+      case 4:
+        alert("Excelente técnica");
+			  break;
+			case 5:
+        alert("usted está en la media");
+			  break;
 			case 6:
 			case 7:
 			case 8:
 			case 9:
-			case 10: alert("falta técnica");
-			break;
-			default:alert("afortunado en el amor!!");
+			case 10:
+        alert("falta técnica");
+			  break;
+			default:
+        alert("afortunado en el amor!!");
 		}
       flag=0;
     }
